@@ -14,25 +14,101 @@
   <style>
     /*Small devices (Landscape phones 576px)*/
     @media(min-width: 576px) {
+      /*
+      body {
+        background: red;
+      }
+      */
+    }
+
+    /*Medium devices (Tablets, 768px e superior)*/
+    @media(min-width: 768px) {
+      /*
+      body {
+        background: blue;
+      }
+      */
+    }
+
+    /*Large devices (Desktops, 992px e superior)*/
+    @media(min-width: 992px) {
+      /*
+      body {
+        background: orangered;
+      }
+      */
+    }
+
+    /*Extra large devices (Large desktops, 1200px e superior)*/
+    @media(min-width: 1200px) {
+      /*
+      body {
+        background: gray;
+      }
+      */
+    }
+
+    /*-----------Max-width-----------*/
+
+    /*Extra small devices (portrait phones)*/
+    @media(max-width: 575px) {
+      /*
+      body {
+        background: #870000;
+      }
+      */
+    }
+
+    /*Small devices (Landscape phones)*/
+    @media(max-width: 767px) {
+    }
+
+    /*Medium devices (Tablets)*/
+    @media(max-width: 991px) {
+    }
+
+    /*Large devices (Desktops)*/
+    @media(max-width: 1199px) {
+    }
+
+    /*--------------------------*/
+
+    /*Extra small devices (portrait phones, less than 576px)*/
+    @media(max-width: 575.98px) {
+      body {
+        background: #870000;
+      }
+    }
+
+    /*Small devices (Landscape phones, 576px and up)*/
+    @media(min-width: 576px) and (max-width: 767.98px) {
       body {
         background: red;
       }
     }
 
-    /*Medium devices (Tablets, 768px e superior)*/
-    @media(min-width: 768px) {
-
+    /*Medium devices (Tablets, 768px and up)*/
+    @media(min-width: 768px) and (max-width: 991.98px) {
+      body {
+        background: blue;
+      }
     }
 
-    /*Large devices (Desktops, 992px e superior)*/
-    @media(min-width: 992px) {
-
+    /*Large devices (Desktops, 992px and up)*/
+    @media(min-width: 992px) and (max-width: 1199.98px) {
+      body {
+        background: orangered;
+      }
     }
 
-    /*Extra large devices (Large desktops, 1200px e superior)*/
+    /*Extra large devices (Large desktops, 1200px and up)*/
     @media(min-width: 1200px) {
-
+      body {
+        background: gray;
+      }
     }
+
+
   </style>
 
   <body style="margin-bottom: 200px; width: 600px; margin: 0 auto;">
