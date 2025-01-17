@@ -14,45 +14,50 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-  <!-- Estilo customizado -->
-  <link rel="stylesheet" type="text/css" href="css/estilo.css">
-
-  <title>Finans - finanças pessoais</title>
+  <title>Finans - Finanças pessoais</title>
 </head>
 
 <body>
 
   <header class="bg-warning"><!--Inicio do cabeçalho-->
     <div class="container">
-      <nav class="nav navbar">
+      <nav class="navbar navbar-expand-md">
 
-        <a class="" href="">
-          <img src="img/logo.png" alt="">
+        <a class="navbar-brand" href="">
+          <img width="142px" src="img/logo.png" alt="">
         </a>
 
-        <ul class="nav">
-          <li>
-            <a class="text-dark nav-link" href="#">Home</a>
-          </li>
-          <li>
-            <a class="text-dark nav-link" href="#">Recursos</a>
-          </li>
-          <li>
-            <a class="text-dark nav-link" href="#">Benefícios</a>
-          </li>
-          <li>
-            <a class="text-dark nav-link" href="#">Preços</a>
-          </li>
+        <button class="navbar-toggler navbar-light" data-toggle="collapse" data-target="#nav-principal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <button class="btn btn-outline-light nav-link" type="button">Entrar</button>
+        <div class="collapse navbar-collapse" id="nav-principal">
 
-        </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="text-dark nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-dark nav-link" href="#">Recursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-dark nav-link" href="#">Benefícios</a>
+            </li>
+            <li class="nav-item">
+              <a class="text-dark nav-link" href="#">Preços</a>
+            </li>
+            <li class="nav-item ml-3">
+              <a class="btn btn-outline-light nav-link" href="">Entrar</a>
+            </li>
+          </ul>
+
+        </div>
 
       </nav>
 
       <section>
         <div class="row align-items-center">
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <h1 class="display-4 text-white">Suas contas,
               descomplicadas
             </h1>
@@ -62,13 +67,17 @@
               financeira
             </p>
 
-            <form action="#" class="form-inline">
-              <input type="email" class="form-control w-75" placeholder="Seu email">
+            <form action="#" class="mt-4">
+              <div class="input-group">
+                <input type="email" class="form-control" placeholder="Seu email">
 
-              <button type="button" class="btn btn-primary append">Cadastra-se</button>
+                <div class="input-group-append">
+                  <button type="button" class="btn btn-primary">Cadastra-se</button>
+                </div>
+              </div>
             </form>
 
-            <div class="d-flex mt-3">
+            <div class="d-flex mt-3 mb-4">
               <p class="text-white font-weight-bold m-2">Disponível para </p>
 
               <button type="button" class="btn btn-outline-light mr-1">
@@ -81,17 +90,16 @@
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-6">
-              <img src="img/capa-mulher.png" alt="">
-            </div>
+          <div class="col-md-6 d-none d-md-block">
+            <img src="img/capa-mulher.png" alt="">
           </div>
         </div>
-      </section>
+    </div>
+    </section>
     </div>
   </header><!--Fim do cabeçalho-->
 
-  <main class="container mt-5">
+  <main class="container mt-5"><!--Inicio do container-->
 
     <!--Inicio do conteúdo 1-->
     <div id="conteudo-1 d-flex">
@@ -99,52 +107,143 @@
       <div class="row align-items-center"><!--inicio do grid-->
 
         <!--Conteúdo de texto do lado esquerdo-->
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <h2 class="font-weight-bold text-black">Saiba para onde vai o seu dinheiro</h2>
-          <p>
-            Com o Finans, você pode categorizar todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro
+          <p class="align-self-center">
+            Com o Finans, você pode categorizar todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e
+            para onde vai o seu dinheiro
           </p>
           <buttom class="btn btn-primary" type="button">Veja mais</button>
         </div>
 
         <!--Conteúdo de imagem do lado direito-->
-        <div class="col-6">
-          <img class="w-100" src="img/saiba.png" alt="">
+        <div class="col-12 col-md-6">
+          <img class="img-fluid" src="img/saiba.png" alt="">
         </div>
 
       </div><!--Fim do grid-->
 
     </div><!--Fim do conteúdo 1-->
-    
+
 
     <hr class="my-5">
 
     <!--Inicio do conteúdo 2-->
     <div id="conteudo-2 d-flex">
 
-      <div class="row align-items-center"> 
+      <div class="row align-items-center">
 
-        
-        <div class="col-6">
-          <img class="w-100" src="img/juros.png" alt="">
+        <div class="col-12 col-md-6">
+          <img class="img-fluid" src="img/juros.png" alt="">
         </div>
-        
-        <div class="col-6">
+
+        <div class="col-12 col-md-6">
           <h2 class="font-weight-bold text-black">Saiba para onde vai o seu dinheiro</h2>
           <p>
-            Com o Finans, você pode categorizar todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro
+            Com o Finans, você pode categorizar todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e
+            para onde vai o seu dinheiro
           </p>
           <buttom class="btn btn-primary" type="button">Veja mais</button>
         </div>
 
       </div><!--Fim do grid-->
-
     </div><!--Fim do conteúdo 2-->
-    
 
-  </main>
+    <hr class="my-5">
 
+    <!--Inicio do conteúdo 3-->
+    <div id="conteudo-3 d-flex">
 
+      <div class="row align-items-center">
+
+        <div class="col-12 col-md-4"><!--Inicio do primeiro item-->
+          <img class="img-fluid" src="img/facil.png" alt="Foto de um cartão e um celular">
+
+          <h2>
+            Fácil de usar
+          </h2>
+
+          <p>
+            O Finans vai além do básico e permite que você faça controles incríveis, essenciais para suas finanças.
+            Simples como tem que ser!
+          </p>
+        </div><!--Fim do primeiro item-->
+
+        <div class="col-12 col-md-4"><!--Inicio do segundo item-->
+          <img class="img-fluid" src="img/economize.png" alt="Foto de um cartão e um celular">
+
+          <h2>
+            Economize seu tempo
+          </h2>
+
+          <p>
+            Tempo é dinheiro! Em segundos, você tem tudo sobe controle e aproveita seu tempo com o que realmente importa
+            para você!
+          </p>
+        </div><!--Fim do segundo item-->
+
+        <div class="col-12 col-md-4"><!--Inicio do segundo item-->
+          <img class="img-fluid" src="img/suporte.png" alt="Foto de um cartão e um celular">
+
+          <h2>
+            Suporte amigo
+          </h2>
+
+          <p>
+            Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui para resolver os seus problemas e
+            deixar a sua vida bem mais fácil!
+          </p>
+        </div><!--Fim do segundo item-->
+
+      </div><!--Fim do grid-->
+    </div><!--Fim do conteúdo 3-->
+
+  </main><!--Fim do container-->
+
+  <hr class="my-5">
+
+  <footer class="my-5"><!--Inicio do rodapé-->
+    <div class="container">
+
+      <div class="row"><!--Navegação rodapé-->
+        <div class="col-md-8">
+          <ul class="nav">
+            <li>
+              <a class="text-primary nav-link" href="#">Home</a>
+            </li>
+            <li>
+              <a class="text-primary nav-link" href="#">Recursos</a>
+            </li>
+            <li>
+              <a class="text-primary nav-link" href="#">Benefícios</a>
+            </li>
+            <li>
+              <a class="text-primary nav-link" href="#">Preços</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 d-flex justify-content-end"><!--Redes sociais-->
+
+          <button type="button" class="btn btn-outline-dark mr-1">
+            <span class="fa-brands fa-facebook fa-lg"></span>
+          </button>
+
+          <button type="button" class="btn btn-outline-dark mr-1">
+            <span class="fa-brands fa-instagram fa-lg"></span>
+          </button>
+
+          <button type="button" class="btn btn-outline-dark mr-1">
+            <span class="fa-brands fa-twitter fa-lg"></span>
+          </button>
+
+          <button type="button" class="btn btn-outline-dark mr-1">
+            <span class="fa-brands fa-youtube fa-lg"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer><!--Fim do rodapé-->
 
 
 
