@@ -14,25 +14,108 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <!--Estilos customizados-->
-    <link rel="stylesheet" href="css/estilo.css">
+  <!--Estilos customizados-->
+  <link rel="stylesheet" href="css/estilo.css">
+
+  <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
 
   <title>Música para todos - Spotify </title>
 </head>
 
 <body>
 
-  <header>
-    <nav class="bg-dark">
-      
-      <a class="nav-link text-light" href="#">
-        <img width="50px" src="imagens/favicon.png" alt="">
-        Spotify
-      </a>
+  <header><!--Inicio do cabeçalho-->
 
-    </nav>
-  </header>
-  
+    <nav class="navbar navbar-light navbar-expand-md fixed-top navbar-transparente"><!--Inicio da nav-->
+      <div class="container"><!--Inicio da div container-->
+
+        <!--Inicio do logo-->
+        <a class="navbar-brand text-light" href="#">
+          <img width="142px" src="imagens/spotify.svg" alt="">
+        </a><!--Fim do logo-->
+
+        <!--Botao do menu hamburguer-->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-princiapl">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-princiapl"><!--Inicio da div que faz o menu hamburguer-->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Premium</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Ajuda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Baixar</a>
+            </li>
+
+            <li class="nav-item divisor"></li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Inscrever-se</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Entrar</a>
+            </li>
+          </ul>
+        </div><!--Fim da div que faz o menu hamburguer-->
+
+      </div><!--Fim da div container-->
+    </nav><!--Fim da nav-->
+  </header><!--Fim do cabeçalho-->
+
+  <section id="home" class="d-flex"><!--Inicio da capa-->
+    <div class="container align-self-center"><!--Inicio do container-->
+      <div class="row"><!--Inicio do grid-->
+        <div class="col-md-12 capa">
+
+          <h1>Música para todos</h1>
+          <a href="#" class="btn btn-md btn-custom btn-roxo">
+            Aproveite o Spotify free
+          </a>
+
+          <a href="#" class="btn btn-md btn-custom btn-branco">
+            Obter o Spotify Premium
+          </a>
+
+        </div>
+      </div><!--Fim do grid-->
+    </div><!--Fim do container-->
+  </section><!--Fim da capa-->
+
+  <section id="servicos"><!--Inicio dos conteúdos-->
+    <div class="container"><!--container-->
+      <div class="row"><!--Grid row-->
+        <div class="col-md-6"><!--Area 1-->
+          <div class="row"><!--Grid row de dentro-->
+            <div class="col-md-6"><!--Separar as img-->
+              <img src="imagens/img1.jpg" class="img-fluid" alt="">
+            </div><!--Separar as img-->
+            <div class="col-md-6"><!--Separar as img-->
+              <img src="imagens/img2.jpg" class="img-fluid" alt="">
+            </div><!--Separar as img-->
+          </div><!--Grid row de dentro-->
+
+          <div class="row"><!--Grid row de dentro-->
+            <div class="col-md-6"><!--Separar as img-->
+              <img src="imagens/img3.jpg" class="img-fluid" alt="">
+            </div><!--Separar as img-->
+            <div class="col-md-6"><!--Separar as img-->
+              <img src="imagens/img4.jpg" class="img-fluid" alt="">
+            </div><!--Separar as img-->
+          </div><!--Grid row de dentro-->
+        </div><!--Area 1-->
+
+        <div class="col-md-6"><!--Area 2-->
+
+        </div><!--Area 2-->
+
+      </div><!--Grid row-->
+    </div><!--container-->
+  </section><!--Fim dos conteúdos-->
+
 
 
 
