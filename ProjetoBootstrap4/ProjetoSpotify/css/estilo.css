@@ -75,6 +75,49 @@ h1 {
     color: white;
 }
 
+/*-----Estrutura de conteúdos 1-----*/
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#servicos {
+    background: white;
+}
+
+#servicos h2, h3 {
+    color: #7c25f8;
+}
+
+.albuns {
+    padding: 10px 0px;
+}
+
+/*-----Estruturas de textos contéudo 1-----*/
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+/*-----Estrutura de conteúdos 2-----*/
+
+/*-----Estruturas de textos contéudo 2-----*/
+#recursos h2 {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+
 /*-----Media queries-----*/
 
 /*Extra small devices (portrait phones, menor ou igual a 576px)*/
