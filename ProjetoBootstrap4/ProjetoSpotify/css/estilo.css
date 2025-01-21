@@ -3,7 +3,9 @@
 /*Configurando*/
 html, body, #home {
     height: 100%;
-}
+    overflow-x: hidden;
+    flex-direction: row-reverse;
+} 
 
 /*------------Layout------------*/
 body {
@@ -109,12 +111,21 @@ h3 {
 /*-----Estrutura de conteúdos 2-----*/
 
 /*-----Estruturas de textos contéudo 2-----*/
+#recursos {
+    color: white;
+}
+
 #recursos h2 {
     color: white;
 }
 
 #recursos h3 {
     color: #9bf0e1;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    padding-left: 60px;
 }
 
 
