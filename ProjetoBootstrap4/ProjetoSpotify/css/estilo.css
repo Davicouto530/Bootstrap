@@ -22,6 +22,10 @@ nav.navbar-transparente {
     background: rgba(0, 0, 0, 0.6);
 }
 
+ul.espaco li {
+    margin-left: 10px;
+}
+
 /*Mudando a cor da letra da navegação*/
 .navbar-light .navbar-nav .nav-link {
     color: white;
@@ -156,8 +160,12 @@ footer ul {
     display: flex;
 }
 
+.col-md-2 h4 {
+    margin-top: 20px;
+}
+
 footer .redes li {
-    margin: 15px 5px;
+    margin: 20px 5px;
 }
 
 /*-----Media queries-----*/
