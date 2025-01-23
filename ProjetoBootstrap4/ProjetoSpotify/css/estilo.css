@@ -73,6 +73,10 @@ ul.espaco li {
     color: black;
 }
 
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
 /*---------Tipografia---------*/
 h1 {
     font-weight: 700;
